@@ -4,7 +4,7 @@
 ## What is Scorecraper?
 Scorescraper is a program that runs inside of node.js. It was originally created to pull highschool football data, but has since been adapted to pull football data from not only highschool, but also College Football (D1) and NFL.
 ## How does Scorescraper work? 
-We uitilze many plugins within [node.js](https://nodejs.org/en). Many of which can be found [at the top of index.ts](src/index.ts) (or in the following code block)
+We uitilze many plugins within [node.js](https://nodejs.org/en). Many of which can be found in the following code block:
 ```ts
 import fetch from "node-fetch"; // A Node.js implementation of the browser's fetch API.
 import { readFile, writeFile } from 'fs/promises'; // Asynchronous file system operations for reading and writing files.
